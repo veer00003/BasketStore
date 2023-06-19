@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Products - BasketStore</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap');
+      </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<!-- <div class="header"> -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Index.html"><img src="Images/logo-white.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="accnt.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="Images/cart.png" width="30px" height="30px">
+            <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<!-- </div> -->
+
+<!-- single pro-details -->
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="Images/gallery-1.jpg" width="100%" id="proimg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="Images/gallery-1.jpg" width="100%" alt="" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="Images/gallery-2.jpg" width="100%" alt="" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="Images/gallery-3.jpg" width="100%" alt="" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="Images/gallery-4.jpg" width="100%" alt="" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home / T-Shirt</p>
+            <h1>B-Ball Printed T-Shirt by HRX</h1>
+            <h4>$50</h4>
+            <select name="" id="">
+                <option value="">Select Size</option>
+                <option value="">XXL</option>
+                <option value="">XL</option>
+                <option value="">L</option>
+                <option value="">M</option>
+                <option value="">S</option>
+                <option value="">XS</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laudantium molestiae provident asperiores ullam quos ipsum placeat quod quas recusandae dolore nostru</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+</div>
+
+<div class="small-container">
+    <!-- <h2 class="title">Featured Products</h2> -->
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product-1.jpg" >
+            <h4>Basket Ball Printed T-Shirt</h4>
+            <div class="Rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <!-- <i class="fa fa-star"></i> -->
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-2.jpg" >
+            <h4>Basket Ball Printed T-Shirt</h4>
+            <div class="Rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <!-- <i class="fa fa-star-half-alt"></i> -->
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-3.jpg" >
+            <h4>Basket Ball Printed T-Shirt</h4>
+            <div class="Rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-4.jpg" >
+            <h4>Basket Ball Printed T-Shirt</h4>
+            <div class="Rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios phone.</p>
+                <div class="app-logo">
+                    <img src="Images/play-store.png" alt="">
+                    <img src="Images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="Images/logo.png" alt="">
+                <p>We are here to provide you best prducts of the game which makes your enthu high.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Plicy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Veer BasketStore for Basketball</p>
+    </div>
+</div>
+<!-- js for toggel menu -->
+<script>
+    var menuitems=document.getElementById("menuitems");
+    menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px"){
+            menuitems.style.maxHeight="200px";
+        }
+        else{
+            menuitems.style.maxHeight="0px";
+        }
+    }
+</script>
+
+<!-- JS for product gallery -->
+<script>
+    var proimg=document.getElementById("proimg");
+    var smallimg=document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick=function(){
+        proimg.src=smallimg[0].src;
+    }
+    smallimg[1].onclick=function(){
+        proimg.src=smallimg[1].src;
+    }
+    smallimg[2].onclick=function(){
+        proimg.src=smallimg[2].src;
+    }
+    smallimg[3].onclick=function(){
+        proimg.src=smallimg[3].src;
+    }
+
+</script>
+</body>
+</html>
